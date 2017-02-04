@@ -6,17 +6,17 @@ p{
 .background{
     height: 900;
     width: 900;
-    background-color: ;
+    background-color: black ;
     margin: auto       
 }
 
 .buttonarea{
     text-align: center;
     height: 150;
-    width: 300;
+    width: 900;
     
-    position: fixed;
-    top: 40%;
+    position:relative;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -40%);
     
@@ -31,12 +31,13 @@ p{
     padding-top: 50;
 }
 
-.button {
+.thebutton {
   display: inline-block;
   padding: 50px 60px;
   font-size: 24px;
   cursor: pointer;
   text-align: center;
+    -webkit-user-select: none;
   text-decoration: none;
   outline: none;
   color: #fff;
@@ -46,21 +47,15 @@ p{
   box-shadow: 0 9px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.thebutton:hover {background-color: #3e8e41}
 
-.button:active {
+.thebutton:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-.disable-select {
-  -webkit-user-select: none;  
-  -moz-user-select: none;    
-  -ms-user-select: none;      
-  user-select: none;
-}
-    
+
 
  
 
