@@ -20,21 +20,21 @@ p{
 }
 
 .title{
-    font-family: dimitri swank ;
-    font-size: 85;
+    font-family: dimitri ;
+    font-size: 60;
     font-weight: bold;
     color: black;
     text-align: center;
-    
+    height: 100;
+    padding-top: 30
 }
 
 .titleborder{
     height:100;
-    width: 610;
+    width: 700;
     background-color: deeppink;
     margin: auto;
-    padding-top: 20;
-    padding-bottom: 10;
+    padding-top: 30;
     border-radius: 20px;
     border-color: black;
     border-style: solid;
