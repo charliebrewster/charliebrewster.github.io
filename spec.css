@@ -6,17 +6,10 @@ Body{
 p{
 }
 
-.surface{
-    height: 950;
-    width: 1000;
-    margin: auto;
-    padding-top: 10;
-}
-
 .background{
-    height: 950;
-    width: 800;
-    margin: auto;   
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280;
 }
 
 
